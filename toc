@@ -1,0 +1,22 @@
+{: navgroup: .navgroup}
+{: topicgroup: .topicgroup}
+
+{: .toc subcollection="mobile-quality-assurance" audience="service"}
+Mobile Quality Assurance
+
+    {: .navgroup id="learn"}
+    index.md
+    mqa_overview.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Instrumenting your app
+        mqa_inst_app_android.md
+        mqa_inst_app_ios.md
+        mqa_inst_app_cord.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ts_index.md
+    {: .navgroup-end}
