@@ -35,7 +35,7 @@ To get up and running quickly with the {{site.data.keyword.mqa}} service, follow
 	* [Instrument MQA with an iOS app](mqa_inst_app_ios.html)
 	* [Instrument MQA with a Cordova app](mqa_inst_app_cord.html)
 
-	A single SDK is used to instrument both pre-production and production apps. You can use the `MODE:` parameter to specify *QA* for pre-production mode, or specify *MARKET* for production mode. Specify the pre-production mode so that internal testers can provide detailed information about bugs and crashes that occur with your app. Specify the production mode so that users can provide detailed information about your app. If your app is in production, {{site.data.keyword.mqa}} facilitates getting feedback from users right within the app.
+	A single SDK is used to instrument both pre-production and production apps. You can use the ```MODE:``` parameter to specify *QA* for pre-production mode, or specify *MARKET* for production mode. Specify the pre-production mode so that internal testers can provide detailed information about bugs and crashes that occur with your app. Specify the production mode so that users can provide detailed information about your app. If your app is in production, {{site.data.keyword.mqa}} facilitates getting feedback from users right within the app.
 
 4. After you have instrumented your app, you can view more detailed quality information for it by selecting one of the following options on the interface of your {{site.data.keyword.mqa}} service instance:
 

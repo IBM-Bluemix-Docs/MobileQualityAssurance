@@ -78,7 +78,7 @@ To instrument {{site.data.keyword.mqa}} to work with your Objective-C or Swift a
 		 
 		8. Save and build the app to verify that the path is correct.
 	
-	7. In the `info.plist` file, verify the following settings in your project information:
+	7. In the ```info.plist``` file, verify the following settings in your project information:
 			
 		* Bundle version - {{site.data.keyword.mqa}} uses the value from this field to determine when to send a new build notification to testers. When you upload a new build to {{site.data.keyword.mqa}}, ensure that you increment this number. The string in the Bundle version field is restricted to numbers and the period (.) character. Because this restriction is an Xcode requirement, most applications follow this convention and do not require changes.
 		* Bundle versions string - This field contains a string representation of your version number. The string does not have the same restrictions as the Bundle version field.
@@ -110,9 +110,9 @@ To instrument {{site.data.keyword.mqa}} to work with your Objective-C or Swift a
                     
 		* Swift
 
-			1. Locate the `didFinishLaunchingWithOptions` method in the `AppDelegate.swift` file.
+			1. Locate the ```didFinishLaunchingWithOptions``` method in the `AppDelegate.swift` file.
                     
-			2. Add the following code inside the method before the line that reads `return true`, where *Your_Application_Key* is a valid key for your app:
+			2. Add the following code inside the method before the line that reads ```return true```, where *Your_Application_Key* is a valid key for your app:
 
 				```
 				// Set the application key
@@ -169,7 +169,7 @@ To instrument {{site.data.keyword.mqa}} to work with your Objective-C or Swift a
 
 			1. In the AppDelegate.swift file, search for the `didFinishLaunchingWithOptions` method.
 			
-			2. Add the following lines to your `didFinishLaunchingWithOptions` method before the line that reads `return true`:
+			2. Add the following lines to your `didFinishLaunchingWithOptions` method before the line that reads ```return true```:
 			        
 				```
 				//Set the SDK mode Market vs QA for Production 

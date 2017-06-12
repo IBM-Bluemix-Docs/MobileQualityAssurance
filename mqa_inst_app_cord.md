@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2017
-lastupdated: "2017-03-09"
+lastupdated: "2017-02-02"
 
 ---
 
@@ -18,7 +18,7 @@ lastupdated: "2017-03-09"
 To use {{site.data.keyword.mqafull}} with your Cordova app, you must download the SDK and instrument it by making some changes using the command-line interface.
 {: shortdesc}
 
-Before you can instrument an app with {{site.data.keyword.mqa}}, you must have a {{site.data.keyword.Bluemix}} account and the correctly installed version of the development environment for the platforms of the app that you are instrumenting.
+Before you can instrument an app with {{site.data.keyword.mqa}}, you must have a {{site.data.keyword.Bluemix}} account and the correctly installed version of the development environment for the platforms of the app you that are instrumenting.
 
 To instrument {{site.data.keyword.mqa}} to work with your Cordova app, complete the following tasks:
 
@@ -41,7 +41,7 @@ To instrument {{site.data.keyword.mqa}} to work with your Cordova app, complete 
 
 			Where *plugin_location* is the path to the directory of the extracted {{site.data.keyword.mqa}} plug-in that you downloaded.
         
-			2. If your app runs on Android, rename the `project_name/app_name/platforms/android/custom_rules.xml` file to `custom_rules.xml.bak`.
+			2. If your app runs on Android, rename the ```project_name/app_name/platforms/android/custom_rules.xml``` file to ```custom_rules.xml.bak```.
 		
 		* Apache Cordova earlier than version 4.0:
 			1. Enter the following command to install the {{site.data.keyword.mqa}} plugin:
@@ -60,7 +60,7 @@ To instrument {{site.data.keyword.mqa}} to work with your Cordova app, complete 
 				```
 				{: codeblock}
 
-			3. If your app runs on Android, rename the `project_name/app_name/platforms/android/custom_rules.xml` file to `custom_rules_bak.xml`.
+			3. If your app runs on Android, rename the ```project_name/app_name/platforms/android/custom_rules.xml``` file to ```custom_rules_bak.xml```.
 
 		* Apache Cordova version 4.0, or later:
 
@@ -82,9 +82,9 @@ To instrument {{site.data.keyword.mqa}} to work with your Cordova app, complete 
 
 2. Start a new session of {{site.data.keyword.mqa}} with each log in.
 
-	1. Open the `index.js` file that is in the following directory: `your_project_name\www\js`.
+	1. Open the ```index.js``` file that is in the following directory: ```your_project_name\www\js```.
 	
-	2. Add the following function and parameters inside the `onDeviceReady()` function that is in the `index.js` file. Place the function before the end brace of the function.
+	2. Add the following function and parameters inside the ```onDeviceReady()``` function that is in the ```index.js``` file. Place the function before the end brace of the function.
 	
 	Restriction: For an app that is already instrumented for Mobile Quality Assurance using an older version of the plug-in for Cordova to use the features that are included in the Mobile Quality Assurance plug-in for Cordova version 3.0.18, and later, you must regenerate and replace your app key. For more information about how to regenerate your app key, see Managing app settings. App keys that were generated earlier than February 2016 continue to work with the older plug-in, but no longer work after you upgrade your plug-in to version 3.0.18, or later.
 	
